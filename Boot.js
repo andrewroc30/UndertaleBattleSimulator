@@ -1,12 +1,13 @@
 var UndertaleBattleSimulator = {};
 
-UndertaleBattleSimulator.Boot = function(game) {};
+UndertaleBattleSimulator.Boot = function(game) {
+};
 
 UndertaleBattleSimulator.Boot.prototype = {
 	
 	preload: function() {
-        this.load.image('preloaderBar', 'images/loader_bar.png');
-        this.load.image('titleimage', 'images/TitleImage.png');
+        this.load.image('preloaderBar', 'images/UndertaleBattleSimulatorLoadingBar.png');
+        this.load.image('titleimage', 'images/UndertaleBattleSimulatorTitleImage.png');
     },
 
 	create: function() {

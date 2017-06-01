@@ -60,8 +60,6 @@ UndertaleBattleSimulator.Game.prototype = {
 
         this.music = this.add.audio('game_audio');
         this.music.play('', 0, 0.3, true);   //marker, position, volume, loop
-        this.ouch = this.add.audio('hurt_audio');
-        this.boom = this.add.audio('explosion_audio');
         this.ding = this.add.audio('select_audio');
         this.buildWorld();
     },
